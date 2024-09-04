@@ -22,7 +22,9 @@ def bai3():
     print("Your name is: ", ten)
 
 def bai4():
-    print("Hello World")
+    radius = float(input("Nhap ban kinh: "))
+    area = 3.14 * radius**2
+    print("Dien tich hinh tron la: ", area)
 
 
 if __name__ == "__main__":
