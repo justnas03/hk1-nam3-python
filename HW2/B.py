@@ -55,7 +55,13 @@ def bai4():
         if is_prime(i):
             print(i, end=" ")
 
-
+def bai2():
+    n = int(input("Nhap n: "))
+    m = int(input("Nhap m: "))
+    for i in range(n, m+1):
+        if is_prime(i):
+            print(i, end=" ")
+            
 
 if __name__ == "__main__":
     # main()
