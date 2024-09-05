@@ -7,11 +7,11 @@ def bai1():
 
 def bai2():
     S = input("Enter the String: ")
+    S1 = S.split()
     count = 0
-    for i in S:
-        if i == " ":
+    for i in S1:
             count += 1
-    print("Number of words in the string is:", count+1)
+    print("Number of words in the string is:", count)
 
 def bai3():
     S = input("Enter the String: ")
@@ -25,5 +25,5 @@ def bai3():
 
 if __name__ == "__main__":
     # bai1()
-    # bai2()
-    bai3()
+     bai2()
+    # bai3()
