@@ -8,10 +8,7 @@ def bai1():
 def bai2():
     S = input("Enter the String: ")
     S1 = S.split()
-    count = 0
-    for i in S1:
-            count += 1
-    print("Number of words in the string is:", count)
+    print("Number of words in the string is:", len(S1))
 
 def bai3():
     S = input("Enter the String: ")
