@@ -42,7 +42,28 @@ def exercise6():
     n = 60*24*365
     print("Number of minutes in a year: {}".format(n))
 
+def exercise7():
+    print("Exercise 7: Light travels")
+    number_of_light_year = float(input("Enter the number of light year: "))
+    second_per_year = 365*24*60*60 #calculate number of seconds in a year
+    light_speed = 3*10**8 # m/s
+    distance = number_of_light_year*light_speed*second_per_year
+    print("Distance: {:.2e} meters".format(distance))
 
+def exercise8():
+    print("Exercise 8: Kilometers to Nautical Miles")
+    kilometers = float(input("Enter the number of kilometers: "))
+    # Calculate nautical miles using the given approximations
+    nautical_miles = kilometers * (1 / 10000) * (90 * 60)
+    print("{:.2f} km = {:.2f} nautical miles".format(kilometers, nautical_miles))
+
+def exercise9():
+    print ("Exercise 9: Employee's total weekly pay")
+    hourly_wage = float(input("Enter the hourly wage ($): "))
+    total_regular_hours = float(input("Enter the total regular hours: "))
+    total_overtime_hours = float(input("Enter the total overtime hours: "))
+    total_weekly_pay = hourly_wage*total_regular_hours + 1.5*hourly_wage*total_overtime_hours
+    print("Total weekly pay: {:.2f}$".format(total_weekly_pay))
 
 
 if __name__ == "__main__":
@@ -51,5 +72,8 @@ if __name__ == "__main__":
     # exercise3()
     # exercise4()
     # exercise5()
-    exercise6()
+    # exercise6()
+    # exercise7()
+     exercise8()
+    # exercise9()
 
