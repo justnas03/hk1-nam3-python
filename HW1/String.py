@@ -16,6 +16,7 @@ def bai2():
 def bai3():
     S = input("Enter the String: ")
     count = 0
+    S = S.lower()
     vowels = "aeiou"
     for i in S:
         if i in vowels:
