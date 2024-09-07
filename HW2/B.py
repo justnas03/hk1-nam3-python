@@ -71,7 +71,35 @@ def bai2():
         if is_prime(i):
             print(i, end=" ")
 
+def bai6():
+    for i in range(99,999+1):
+        if i % 7 == 0 and i % 5 != 0:
+            print(i, end=" ")
 
+def bai7():
+    n = int(input("Nhap n: "))
+    m = int(input("Nhap m: "))
+    for i in range(n, m+1):
+        if i % 9 == 0 and i % 7 == 0:
+            print(i, end=" ")
+        else:
+            print("Khong co so nao thoa man dieu kien")
+            break   
+def bai8():
+    n = int(input("Nhap n: "))
+    s = str(n)
+    count = 0
+    sum = 0
+    for i in s:
+        count += 1
+        sum += int(i)
+    print("so co {} chu so".format(count))
+    print("tong cac chu so la: {}".format(sum))
+        
 if __name__ == "__main__":
     # main()
-    bai5()
+    # bai5()
+    # bai6()
+    # bai7()
+    # bai8()
+   
