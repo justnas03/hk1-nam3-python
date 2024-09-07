@@ -101,5 +101,4 @@ if __name__ == "__main__":
     # bai5()
     # bai6()
     # bai7()
-    # bai8()
-   
+    bai8()
