@@ -30,7 +30,7 @@ def is_prime(n): # so nguyen to
             return False 
     return True
     
-def main():
+def bai1():
     n = int(input("Nhap n: "))
     if is_square_number(n):
         print(n, "la so chinh phuong")
@@ -54,6 +54,7 @@ def bai4():
     for i in range(1, m+1):
         if is_prime(i):
             print(i, end=" ")
+
 def bai5():
     n = int(input("Nhap n: "))
     count = 0
@@ -72,6 +73,45 @@ def bai2():
             print(i, end=" ")
 
 
+# gcd(a,b): tim uoc so chung lon nhat
+def UCLN(a,b):
+    while b!= 0:
+        a,b = a, a%b
+    return a
+
+def BCNN(a,b):
+    return abs(a*b)//UCLN(a,b)
+
+def UCLN_r(a,b):
+    if b == 0:
+        return a
+    return UCLN_r(a,b)
+
+def BCNN_r(a,b):
+    return abs(a*b)//UCLN_r(a,b)
+
+
+def bai3(a,b):
+    print(BCNN(a,b))
+    print(BCNN_r(a,b))
+    print(UCLN(a,b))
+    print(UCLN_r(a,b))
+
+
+def bai8():
+    n = int(input("Nhap so: "))
+    n_str = str(n)
+    print(len(n_str))
+    sum = 0
+    n_arr = n_str.split(" ")
+    for i in n_str:
+        sum += int(i)
+    print(sum)
+
+
+    
+
 if __name__ == "__main__":
     # main()
-    bai5()
+    # bai5()
+    bai8()
