@@ -113,8 +113,6 @@ def bai8():
     print(sum)
 
 
-    
-
 if __name__ == "__main__":
     # main()
     # bai5()
