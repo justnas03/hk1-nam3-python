@@ -72,6 +72,10 @@ def bai2():
         if is_prime(i):
             print(i, end=" ")
 
+def bai6():
+    for i in range(99,999+1):
+        if i % 7 == 0 and i % 5 != 0:
+            print(i, end=" ")
 
 # gcd(a,b): tim uoc so chung lon nhat
 def UCLN(a,b):
