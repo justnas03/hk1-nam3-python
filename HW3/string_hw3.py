@@ -56,7 +56,28 @@ def bai6():
     for number in num:
         if is_prime(int(number)):
             print(number)
-    
+
+def bai7():
+    s = input("Nhap s: ")
+    words = s.split()
+    word_counts = {}
+    for word in words:
+        if word in word_counts:
+            word_counts[word] += 1
+        else:
+            word_counts[word] = 1
+
+    for word, count in sorted(word_counts.items()):
+        print(f"{word}: {count}")
+
+
+
+
+
+
+def bai7_bis():
+    s = input ("Nhap s: ")
+
 
 
 
@@ -67,4 +88,5 @@ if __name__ == "__main__":
     # bai3()
     # bai4()
     # bai5()
-    bai6()
+    # bai6()
+    bai7_bis()
