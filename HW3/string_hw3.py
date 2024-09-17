@@ -71,15 +71,17 @@ def bai7():
         print(f"{word}: {count}")
 
 
-
-
-
-
 def bai7_bis():
     s = input ("Nhap s: ")
-
-
-
+    words = s.split(" ")
+    count = dict() #init dict
+    for word in words:
+        if word in count:
+            count[word] += 1
+        else:
+            count[word] = 1
+    for word, c in sorted(count.items()):  # Use count.items() to get key-value pairs
+        print(word, c, sep=",") 
 
 
 if __name__ == "__main__":
