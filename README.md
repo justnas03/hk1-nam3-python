@@ -1,29 +1,53 @@
 # README.md
 
-This repository contains solutions to various programming exercises in Python. The exercises are divided into two categories: HW3 and HW4.
+Kho lưu trữ này chứa các giải pháp cho các bài tập lập trình khác nhau bằng Python. Các bài tập được chia thành bốn hạng mục: HW1, HW2, HW3, và HW4.
+
+**HW1**
+
+* `bai1.py`: Sắp xếp một chuỗi các từ và in chúng theo thứ tự alphabet.
+* `bai2.py`: Chuyển đổi các số nhị phân thành thập phân và in chúng.
+* `bai3.py`: Đếm số lượng các ký tự alphabet trong một chuỗi và in số đếm.
+* `bai4.py`: Viết hoa chữ cái đầu tiên của mỗi từ trong một chuỗi và in kết quả.
+* `bai5.py`: Đếm số lượng các chữ cái viết hoa và viết thường trong một chuỗi và in các số đếm.
+* `bai6.py`: Nhận dạng các số nguyên tố trong một chuỗi và in chúng.
+* `bai7.py`: Đếm số lần xuất hiện của mỗi từ trong một chuỗi và in các số đếm theo thứ tự alphabet.
+* `bai7_bis.py`: Tương tự như `bai7.py`, nhưng in các số đếm theo một định dạng khác.
+
+**HW2**
+
+* `bai1.py`: Minh họa so sánh chuỗi với so sánh số nguyên cho việc sắp xếp.
+* `bai2.py`: Lọc các phần tử từ một danh sách dựa trên các chỉ số của chúng.
+* `bai3.py`: Loại bỏ các phần tử trùng lặp khỏi một danh sách.
+* `bai3_b.py`: Loại bỏ các phần tử trùng lặp khỏi một danh sách bằng cách sử dụng một tập hợp.
+* `bai4.py`: Đếm số lần xuất hiện của mỗi phần tử trong một danh sách và in các số đếm.
+* `bai4_b.py`: Đếm số lần xuất hiện của mỗi phần tử trong một danh sách bằng cách sử dụng một từ điển.
+* `bai5.py`: Yêu cầu người dùng nhập các phần tử vào một danh sách.
+* `bai5_b.py`: Continuously asks the user to input elements into a list until a specific value is entered.
+* `bai6.py`: Tìm các phần tử chung giữa hai danh sách.
+* `bai6_b.py`: Tìm các phần tử chung giữa hai danh sách bằng cách sử dụng một tập hợp.
 
 **HW3**
 
-* `bai1.py`: Sorts a string of words and prints them in alphabetical order.
-* `bai2.py`: Converts binary numbers to decimal and prints them.
-* `bai3.py`: Counts the number of alphabetic characters in a string and prints the count.
-* `bai4.py`: Capitalizes the first letter of each word in a string and prints the result.
-* `bai5.py`: Counts the number of uppercase and lowercase letters in a string and prints the counts.
-* `bai6.py`: Identifies prime numbers in a string and prints them.
-* `bai7.py`: Counts the occurrences of each word in a string and prints the word counts in alphabetical order.
-* `bai7_bis.py`: Similar to `bai7.py`, but prints the word counts in a different format.
+* `bai1.py`: Sắp xếp một chuỗi các từ và in chúng theo thứ tự alphabet.
+* `bai2.py`: Chuyển đổi các số nhị phân thành thập phân và in chúng.
+* `bai3.py`: Đếm số lượng các ký tự alphabet trong một chuỗi và in số đếm.
+* `bai4.py`: Viết hoa chữ cái đầu tiên của mỗi từ trong một chuỗi và in kết quả.
+* `bai5.py`: Đếm số lượng các chữ cái viết hoa và viết thường trong một chuỗi và in các số đếm.
+* `bai6.py`: Nhận dạng các số nguyên tố trong một chuỗi và in chúng.
+* `bai7.py`: Đếm số lần xuất hiện của mỗi từ trong một chuỗi và in các số đếm theo thứ tự alphabet.
+* `bai7_bis.py`: Tương tự như `bai7.py`, nhưng in các số đếm theo một định dạng khác.
 
 **HW4**
 
-* `bai1.py`: Demonstrates string comparison vs integer comparison for sorting.
-* `bai2.py`: Filters elements from a list based on their indices.
-* `bai3.py`: Removes duplicates from a list.
-* `bai3_b.py`: Removes duplicates from a list using a set.
-* `bai4.py`: Counts the occurrences of each element in a list and prints the counts.
-* `bai4_b.py`: Counts the occurrences of each element in a list using a dictionary.
-* `bai5.py`: Asks the user to input elements into a list.
+* `bai1.py`: Minh họa so sánh chuỗi với so sánh số nguyên cho việc sắp xếp.
+* `bai2.py`: Lọc các phần tử từ một danh sách dựa trên các chỉ số của chúng.
+* `bai3.py`: Loại bỏ các phần tử trùng lặp khỏi một danh sách.
+* `bai3_b.py`: Loại bỏ các phần tử trùng lặp khỏi một danh sách bằng cách sử dụng một tập hợp.
+* `bai4.py`: Đếm số lần xuất hiện của mỗi phần tử trong một danh sách và in các số đếm.
+* `bai4_b.py`: Đếm số lần xuất hiện của mỗi phần tử trong một danh sách bằng cách sử dụng một từ điển.
+* `bai5.py`: Yêu cầu người dùng nhập các phần tử vào một danh sách.
 * `bai5_b.py`: Continuously asks the user to input elements into a list until a specific value is entered.
-* `bai6.py`: Finds common elements between two lists.
-* `bai6_b.py`: Finds common elements between two lists using a set.
+* `bai6.py`: Tìm các phần tử chung giữa hai danh sách.
+* `bai6_b.py`: Tìm các phần tử chung giữa hai danh sách bằng cách sử dụng một tập hợp.
 
-These exercises cover various aspects of Python programming, including string manipulation, list operations, and conditional statements.
+Các bài tập này bao gồm các khía cạnh khác nhau của lập trình Python, bao gồm thao tác chuỗi, thao tác danh sách, và các câu lệnh điều kiện.
