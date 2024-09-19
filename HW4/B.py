@@ -90,12 +90,12 @@ def bai6_b():
 
 
 if __name__ == "__main__":
-    # bai1()
+    bai1()
     # bai2()
     # bai3()
     # bai3_b()
     # bai4()
     # bai4_b()
     # bai5_b()
-    bai6()
+    # bai6()
     # bai6_b()

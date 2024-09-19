@@ -11,7 +11,7 @@ def bai2():
 
     for num in binaries:
         decimal = int(num,2)
-        print(decimal, end=" ")
+        print(decimal, sep=",")
 
 def bai3():
     s = input()
@@ -86,9 +86,9 @@ def bai7_bis():
 
 if __name__ == "__main__":
     # bai1()
-    # bai2()
+    bai2()
     # bai3()
     # bai4()
     # bai5()
     # bai6()
-    bai7_bis()
+    # bai7_bis()
