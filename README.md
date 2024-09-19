@@ -46,8 +46,11 @@ Kho lưu trữ này chứa các giải pháp cho các bài tập lập trình kh
 * `bai4.py`: Đếm số lần xuất hiện của mỗi phần tử trong một danh sách và in các số đếm.
 * `bai4_b.py`: Đếm số lần xuất hiện của mỗi phần tử trong một danh sách bằng cách sử dụng một từ điển.
 * `bai5.py`: Yêu cầu người dùng nhập các phần tử vào một danh sách.
-* `bai5_b.py`: Continuously asks the user to input elements into a list until a specific value is entered.
+* `bai5_b.py`: Yêu cầu người dùng nhập các phần tử vào một danh sách cho đến khi một giá trị cụ thể được nhập.
 * `bai6.py`: Tìm các phần tử chung giữa hai danh sách.
 * `bai6_b.py`: Tìm các phần tử chung giữa hai danh sách bằng cách sử dụng một tập hợp.
 
 Các bài tập này bao gồm các khía cạnh khác nhau của lập trình Python, bao gồm thao tác chuỗi, thao tác danh sách, và các câu lệnh điều kiện.
+
+
+
