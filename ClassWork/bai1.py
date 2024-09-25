@@ -12,14 +12,5 @@ def bai1():
         
     
     print(L)
-
-
-    # CUONG
-    # def bai1b(A):
-    #     S = 0
-    #     for i in A:
-    #         s+= i[2]
-    #     return s
-    
     
 bai1()
