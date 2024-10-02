@@ -2,10 +2,9 @@ import os
 os.system("cls")
 
 class Student:
-    def __init__(self, name, number, score):
+    def __init__(self, name, number):
         self.name = name
         self.number = number
-        self.score = score
 
     def getName(self):
         return self.name
@@ -34,12 +33,13 @@ class Student:
 
 if __name__ == "__main__":
    
-    st = Student('John',23, [8,8.9,7.8])
+    st = Student('John',23 )
+    st.inputScore([8,8.9,7.8,1.0])
     print(st)
-    print(st.getName())
-    print(st.getScore(1))
-    print(st.getAverage())
-    print(st.obtainHBcheck())
-    print(st.getHighscore())
+    print("Name: ", st.getName())
+    print("First score: ", st.getScore(1))
+    print("Average: ", st.getAverage())
+    print("HocBong?: ",st.obtainHBcheck())
+    print("MaxDiem: ",st.getHighscore())
     
     
