@@ -44,14 +44,13 @@ def bai4():
     print(a[bool])
     
 def bai1_B():
-    # n = int(input("n: "))
     n = 10
     arr = np.ones((n,n))
     arr[1:-1,1:-1] = 0
     print(arr)
 
 def bai2_B():
-    arr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]])
+    arr = np.arange(15).reshape(3,5)
     print(arr)
     print("a) Tính tổng mỗi dòng, tổng mỗi cột.")
     print(arr.sum(axis=1)) #axis = 1 -> dòng
@@ -64,14 +63,30 @@ def bai2_B():
     print("c) Tìm những số chẵn/lẻ trong ma trận.")
     print(arr[arr%2==0])
     print(arr[arr%2!=0])
+    print("d) Tính trung bình cộng các cột có chỉ số chẵn (0,2,4)")
+    print(arr[:, ::2].mean(axis=0))#arr[:, ::2] chọn các cột có chỉ số chẵn (bắt đầu từ 0, bước nhảy là 2).
+    print("e) Tính tổng các phần tử có hai chỉ số đều là số chẵn.")
+    print(arr[::2,::2].mean())
+    print("f) Tính khoảng cách giữa giá trị nhỏ nhất và lớn nhất trên mỗi dòng.")
+    print(arr.max(axis=1)-arr.min(axis=1))
 
-    
 def bai3_B():
-    pass
+    arr = np.arange(25).reshape(5,5)
+    arr = arr + 2
+    print(arr[:,:])
+    print("Tính tổng các phần tử trên đường chéo chính/phụ.")
+    print(np.sum(np.diag(arr))) 
+    print(np.sum(np.diag(arr[::-1]))) 
+
+    print("Tìm giá trị lớn nhất/nhỏ nhất trên đường chéo chính/phụ")
+    print(np.max(np.diag(arr))) # diag(arr) -> lấy giá trị đường chéo chính
+    print(np.max(np.diag(arr[::-1]))) # diag(arr[::-1]) -> lấy giá trị đường chéo phụ
+
 if __name__ == "__main__":
     # bai1()
     # bai2()
     # bai3()
     # bai4()
     # bai1_B()
-    bai2_B()
+    # bai2_B()
+    bai3_B()
